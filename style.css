@@ -98,5 +98,7 @@ font-family: 'Passion One', cursive;}
     {font-size: 4.5vw;}
     footer 
     { font-size: 4.5vw; }
+    section.img 
+    {background-attachment: scroll;}
     
 }
