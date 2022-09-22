@@ -1,0 +1,102 @@
+@charset "UTF-8";
+*  {
+    padding: 0px;
+    margin: 0px;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+html, body 
+    {
+    height: 100vh;
+    background-color: rgba(169, 169, 169, 0.034);}
+
+body 
+    {display: flex;
+    flex-direction: column;}
+/* //header */
+header 
+    {background-color: black;
+    font: bold 2.5vw 'Passion One', cursive;
+    color: white;
+    
+    text-align: center;
+    margin-top: 0px;}
+h1 
+    {padding-top: 50px;
+    font-variant: small-caps;}
+header p 
+    {padding-bottom: 50px;
+    font: normal 1.5vw  'Passion One', cursive;}
+
+header a, footer a 
+    {text-decoration: none;
+    color: white;}
+
+    header a:hover, footer a:hover 
+    {
+        color: blue
+    }
+
+/* fim do header */
+
+
+main {flex: 1 0 auto;}
+
+section 
+    {padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2.5vw;
+    font-family: 'Sriracha', cursive;}
+
+section p 
+    {padding-bottom: 2em;}
+.normal
+    {background-color: white;
+    color: black;
+    }
+
+section.img
+    {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.405);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.773);
+    background-size: cover;
+    background-attachment: fixed;}    
+
+
+section.img > p 
+    {display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.693);
+    text-shadow: 2px 2px 0px black;}
+
+#img1 
+    {
+    background-image: url(imagens/pexels-jacob-colvin-1757363.jpg);
+    background-position: center center;
+    
+    }
+
+#img2
+    {background-image: url(imagens/pexels-sagui-andrea-618848.jpg);
+    background-position: center center;}
+
+footer {flex-shrink: 0;
+background-color: black;
+font-size: 2vw;
+color: white;
+text-align: center;
+font-family: 'Passion One', cursive;}
+
+@media screen and (max-width: 768px) {
+    h1 
+    {font-size: 9.5vw;}
+    section 
+    {font-size: 4.5vw;}
+    footer 
+    { font-size: 4.5vw; }
+    
+}
