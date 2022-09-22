@@ -95,7 +95,8 @@ font-family: 'Passion One', cursive;}
     h1 
     {font-size: 9.5vw;}
     section 
-    {font-size: 4.5vw;}
+    {font-size: 4.5vw;
+    font-family:'Sriracha', cursive; }
     footer 
     { font-size: 4.5vw; }
     section.img 
